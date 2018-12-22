@@ -1,7 +1,5 @@
-/* eslint-disable global-require */
-
 const images = {
-  "Clear Sky": require('../assets/clear.png'),
+  "Clear": require('../assets/clear.png'),
   "few clouds": require('../assets/few.jpg'),
   "Scattered Clouds":require('../assets/Scattered.jpg'),
   "Broken Clouds":require('../assets/broken.jpg'),
@@ -10,7 +8,8 @@ const images = {
   "Mist": require('../assets/mist.jpg'),
   "Snow": require('../assets/snow.png'),
   "Thunderstorm": require('../assets/thunder.png'),
-  "Clouds": require('../assets/light-cloud.png')
+  "Clouds": require('../assets/light-cloud.png'),
+  "drizzle": require('../assets/hail.png')
 };
 
 export default weather => images[weather];
