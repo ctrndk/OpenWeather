@@ -28,4 +28,4 @@ Screen :
 
 
 
-![Screen-3](https://github.com/ctrndk/OpenWeather/blob/master/ss3.png)
+![Screen-3](https://github.com/ctrndk/OpenWeather/blob/master/ss3.jpg)
