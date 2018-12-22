@@ -23,7 +23,7 @@ constructor(props){
 }
 
 componentDidMount(){
- this.handleUpdateLocation('wonosobo');
+ this.handleUpdateLocation('Temanggung');
 }
 
 handleUpdateLocation = async city => {
@@ -71,20 +71,20 @@ return (
           {error && (
 
             <Text style={[styles.smallText, styles.textStyle]}>
-              Nothing Found
+              Tidak ditemukan :(
             </Text>
           )}
 
           {!error && (
             <View>
+            
+              <Image style={styles.imgnya}
+                  source={{uri: icon }}
+               />
+
               <Text style={[styles.largeText, styles.textStyle]}>
                 {location}
               </Text>
-
-              <Image
-                  style={{width: 66, height: 58}}
-                  source={{uri: icon }}
-               />
 
               <Text style={[styles.smallText, styles.textStyle]}>
                 {weather} ({description}) 
@@ -96,7 +96,7 @@ return (
           )}
 
           <SearchInput
-          placeholder="Search.."
+          placeholder="Cari Kota.."
           onSubmit={this.handleUpdateLocation}
           />
         </View>
@@ -114,7 +114,7 @@ return (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#34495E',
+    backgroundColor: '#2f3640',
 
   },
 
@@ -139,6 +139,12 @@ const styles = StyleSheet.create({
     flex: 1, 
   }, 
 
+  imgnya: {
+    width: 70,
+    height: 58,
+    justiftyContent:"center",
+    alignSelf:"center"
+  },
 
    foo:{
       color: '#fff',

@@ -50,10 +50,13 @@ const styles = StyleSheet.create({
 	container: {
 		height: 30,
 		marginTop: 20,
-		backgroundColor: '#666',
+    borderWidth: 1,
+    borderColor: '#fff',
+    backgroundColor: 'rgba(0,0,0,0)',
 		marginHorizontal: 40,
 		paddingHorizontal: 10,
 		borderRadius: 5,
+    fontSize: 18,
 	},
 	textInput: {
 		flex: 1,

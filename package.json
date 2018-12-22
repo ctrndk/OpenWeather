@@ -1,7 +1,7 @@
 {
-  "name": "cuaca",
+  "name": "github.com/ctrndk/openweather",
   "version": "0.0.0",
-  "description": "#TUGASMOBILE2",
+  "description": "ctrndk/OpenWeather @ Dec 22, 2018",
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
