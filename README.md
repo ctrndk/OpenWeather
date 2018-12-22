@@ -18,14 +18,14 @@ Tugas 2 API Integration
 Screen :
 
 
-![ScanHere](https://github.com/ctrndk/OpenWeather/blob/master/ss1.png)
+![Screen-1](https://github.com/ctrndk/OpenWeather/blob/master/ss1.png)
 
 
 
 
-![ScanHere](https://github.com/ctrndk/OpenWeather/blob/master/ss2.png)
+![Screen-2](https://github.com/ctrndk/OpenWeather/blob/master/ss2.png)
 
 
 
 
-![ScanHere](https://github.com/ctrndk/OpenWeather/blob/master/ss3.png)
+![Screen-3](https://github.com/ctrndk/OpenWeather/blob/master/ss3.png)
